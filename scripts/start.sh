@@ -1,17 +1,17 @@
 #!/bin/bash
 set -e
 
-# RAM allocation (adjustable)
+VERSION="26.3"
 MIN_RAM="2G"
 MAX_RAM="4G"
 
-# Check if server.jar exists and is valid (> 20MB)
-if [ ! -f "server.jar" ] || [ $(wc -c < "server.jar") -lt 20000000 ]; then
-    echo "[Notice] server.jar missing or invalid. Running setup..."
+# Check if server.jar exists and matches version
+if [ ! -f "server.jar" ] || [ ! -f "server-version.txt" ] || [ $(wc -c < "server.jar") -lt 20000000 ]; then
+    echo "[Notice] Running setup for version $VERSION..."
     bash scripts/setup.sh
 fi
 
-echo "[Server] Starting Minecraft 1.20.4 ($MIN_RAM - $MAX_RAM)..."
+echo "[Server] Starting Minecraft $VERSION ($MIN_RAM - $MAX_RAM)..."
 
 # Optimized Aikar's JVM flags
 exec java -Xms${MIN_RAM} -Xmx${MAX_RAM} \
