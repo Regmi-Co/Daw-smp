@@ -1,0 +1,29 @@
+# DecentHolograms - Top Kills Leaderboard (Frostbite Ice Edition)
+location: spawn:6.0:66.5:3.5
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+lines:
+  - content: "&#00ffff&l❄ TOP SLAYERS ❄"
+    height: 0.35
+  - content: "&7Most Player Kills"
+    height: 0.3
+  - content: "&8&m---------------------------------------"
+    height: 0.25
+  - content: "&6&l#1 &f%ajlb_lb_statistic_player_kills_1_alltime_name% &8- &#00ffff%ajlb_lb_statistic_player_kills_1_alltime_value% &7Kills"
+    height: 0.3
+  - content: "&f&l#2 &f%ajlb_lb_statistic_player_kills_2_alltime_name% &8- &#00ffff%ajlb_lb_statistic_player_kills_2_alltime_value% &7Kills"
+    height: 0.3
+  - content: "&c&l#3 &f%ajlb_lb_statistic_player_kills_3_alltime_name% &8- &#00ffff%ajlb_lb_statistic_player_kills_3_alltime_value% &7Kills"
+    height: 0.3
+  - content: "&7#4 &f%ajlb_lb_statistic_player_kills_4_alltime_name% &8- &#00d2ff%ajlb_lb_statistic_player_kills_4_alltime_value% &7Kills"
+    height: 0.3
+  - content: "&7#5 &f%ajlb_lb_statistic_player_kills_5_alltime_name% &8- &#00d2ff%ajlb_lb_statistic_player_kills_5_alltime_value% &7Kills"
+    height: 0.3
+  - content: "&8&m---------------------------------------"
+    height: 0.25
+  - content: "&bUpdated live from combat data"
+    height: 0.3

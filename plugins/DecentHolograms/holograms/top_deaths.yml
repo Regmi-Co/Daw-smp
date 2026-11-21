@@ -1,0 +1,29 @@
+# DecentHolograms - Top Deaths Leaderboard (Frostbite Ice Edition)
+location: spawn:6.0:66.5:-3.5
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+lines:
+  - content: "&#e63946&l❄ TOP DEATHS ❄"
+    height: 0.35
+  - content: "&7Most Hearts Frozen & Shattered"
+    height: 0.3
+  - content: "&8&m---------------------------------------"
+    height: 0.25
+  - content: "&c&l#1 &f%ajlb_lb_statistic_deaths_1_alltime_name% &8- &#e63946%ajlb_lb_statistic_deaths_1_alltime_value% &7Deaths"
+    height: 0.3
+  - content: "&c&l#2 &f%ajlb_lb_statistic_deaths_2_alltime_name% &8- &#e63946%ajlb_lb_statistic_deaths_2_alltime_value% &7Deaths"
+    height: 0.3
+  - content: "&c&l#3 &f%ajlb_lb_statistic_deaths_3_alltime_name% &8- &#e63946%ajlb_lb_statistic_deaths_3_alltime_value% &7Deaths"
+    height: 0.3
+  - content: "&7#4 &f%ajlb_lb_statistic_deaths_4_alltime_name% &8- &#e63946%ajlb_lb_statistic_deaths_4_alltime_value% &7Deaths"
+    height: 0.3
+  - content: "&7#5 &f%ajlb_lb_statistic_deaths_5_alltime_name% &8- &#e63946%ajlb_lb_statistic_deaths_5_alltime_value% &7Deaths"
+    height: 0.3
+  - content: "&8&m---------------------------------------"
+    height: 0.25
+  - content: "&cEvery death costs you a heart"
+    height: 0.3
