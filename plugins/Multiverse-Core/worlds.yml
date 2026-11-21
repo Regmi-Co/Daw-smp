@@ -1,0 +1,33 @@
+# Multiverse-Core Worlds Configuration - Frostbite Ice Theme
+worlds:
+  world:
+    ==: MVWorld
+    hidden: false
+    alias: world
+    color: WHITE
+    style: NORMAL
+    pvp: true
+    difficulty: HARD
+    generator: ''
+  spawn:
+    ==: MVWorld
+    hidden: false
+    alias: "&#00ffff&l❄ Spawn ❄"
+    color: AQUA
+    style: BOLD
+    pvp: false
+    difficulty: PEACEFUL
+    generator: VoidGen
+    allowFlight: true
+    animals:
+      spawn: false
+    monsters:
+      spawn: false
+    gameMode: SURVIVAL
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 0.5
+      y: 65.0
+      z: 0.5
+      pitch: 0.0
+      yaw: 0.0

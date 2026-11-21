@@ -1,5 +1,5 @@
 # DecentHolograms - Ice Leaderboard
-location: world:5.5:72.0:0.5
+location: spawn:5.5:66.0:0.5
 enabled: true
 display-range: 48
 update-range: 48

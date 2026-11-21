@@ -45,11 +45,20 @@ worldborder set 10000
 chunky border add world 10000
 ```
 
-### 2. Paste the Ice Spawn Hub
-Stand at your desired spawn location (`X: 0, Z: 0`):
+### 2. Paste the Ice Spawn Hub in the Void World
+Teleport to the dedicated void spawn world:
+```text
+/mv tp spawn
+```
+Create a temporary base block to stand on (if needed):
+```text
+//up 1
+```
+Load and paste the pre-installed ice spawn schematic:
 ```text
 //schem load spawn
 //paste
+/mv setspawn
 setworldspawn
 ```
 

@@ -1,5 +1,5 @@
 # DecentHolograms - Spawn Welcome & Guide Hologram
-location: world:0.5:72.0:0.5
+location: spawn:0.5:66.0:0.5
 enabled: true
 display-range: 48
 update-range: 48
