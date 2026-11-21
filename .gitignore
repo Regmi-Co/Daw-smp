@@ -1,6 +1,7 @@
 # Server JAR and downloads
 cache/
 *.jar
+!plugins/*.jar
 libraries/
 versions/
 bundler/
