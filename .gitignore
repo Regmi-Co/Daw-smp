@@ -1,0 +1,28 @@
+# Server JAR and downloads
+cache/
+*.jar
+libraries/
+versions/
+bundler/
+.paper-remapped/
+
+# World and runtime files
+world/
+world_nether/
+world_the_end/
+logs/
+crash-reports/
+*.log.gz
+*.lck
+
+# Plugin generated data & configs that may contain secrets
+plugins/bStats/
+plugins/**/*.db
+plugins/**/*.sqlite
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.tmp

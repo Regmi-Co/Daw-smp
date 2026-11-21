@@ -1,0 +1,20 @@
+{
+  "name": "Minecraft Paper Dev Server",
+  "image": "mcr.microsoft.com/devcontainers/java:1-21-bookworm",
+  "forwardPorts": [25565],
+  "portsAttributes": {
+    "25565": {
+      "label": "Minecraft Server",
+      "onAutoForward": "notify"
+    }
+  },
+  "postCreateCommand": "bash scripts/setup.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "redhat.java",
+        "tamasfe.even-better-toml"
+      ]
+    }
+  }
+}
