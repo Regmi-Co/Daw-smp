@@ -1,0 +1,25 @@
+# DecentHolograms - Crates Station
+location: world:-5.5:72.0:0.5
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+lines:
+  - content: "&#00ffff&l❄ GLACIAL CRATES ❄"
+    height: 0.35
+  - content: "&7Open crates with Cryo-Keys to claim gear & hearts!"
+    height: 0.3
+  - content: "&8&m---------------------------------------"
+    height: 0.25
+  - content: "&#00d2ff[Frost Crate] &8- &7Entry loot & Cryo-Orbs"
+    height: 0.3
+  - content: "&#38b6ff[Glacier Crate] &8- &7Enchanted gear & Diamond armor"
+    height: 0.3
+  - content: "&#00ffff&l[Blizzard Crate] &8- &cExtra Hearts & Netherite gear"
+    height: 0.3
+  - content: "&8&m---------------------------------------"
+    height: 0.25
+  - content: "&bKeys available from boss events & daily rewards!"
+    height: 0.3

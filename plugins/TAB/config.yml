@@ -1,0 +1,88 @@
+# TAB Plugin Configuration - Frostbite Ice Edition
+# Documentation: https://github.com/NEZNAMY/TAB/wiki
+
+header-footer:
+  enabled: true
+  header:
+    - "&b&l❄ FROSTBITE LIFESTEAL SMP ❄"
+    - "&3Season 1 &8• &bplay.dowsmp.net"
+    - ""
+  footer:
+    - ""
+    - "&7Online: &b%online%&8/&3%maxplayers% &8• &7Ping: &b%ping%ms"
+    - "&f&oTrust no one. Protect your hearts."
+    - "&3discord.gg/dowsmp"
+
+tablist-formatting:
+  enabled: true
+  anti-override: true
+
+scoreboard:
+  enabled: true
+  toggle-command: /sb
+  remember-toggle-choice: true
+  hidden-by-default: false
+  use-numbers: false
+  static-number: 0
+  delay-on-join-milliseconds: 0
+  scoreboards:
+    ice-scoreboard:
+      title: "&b&l❄ FROSTBITE ❄"
+      lines:
+        - "&8&m---------------------"
+        - "&b&lPLAYER"
+        - " &8▪ &7Name: &f%player_name%"
+        - " &8▪ &7Rank: %vault_prefix%"
+        - ""
+        - "&3&lLIFESTEAL"
+        - " &8▪ &7Hearts: &#00ffff%player_health% &c❤"
+        - " &8▪ &7Kills: &f%statistic_player_kills%"
+        - " &8▪ &7Deaths: &f%statistic_deaths%"
+        - ""
+        - "&b&lCLAN"
+        - " &8▪ &7Team: &b%betterteams_name%"
+        - " &8▪ &7Balance: &a$%vault_eco_balance_formatted%"
+        - ""
+        - "&7Border: &310,000"
+        - "&8&m---------------------"
+        - "&3play.dowsmp.net"
+
+placeholders:
+  date-format: "dd.MM.yyyy"
+  time-format: "[HH:mm:ss]"
+  time-offset: 0
+
+placeholder-output-replacements:
+  "%betterteams_name%":
+    "": "&7None"
+  "%vault_prefix%":
+    "": "&#00d2ff[Frostborn] "
+
+Groups:
+  owner:
+    tabprefix: "&#9d4edd&l[Owner] "
+    tagprefix: "&#9d4edd&l[Owner] "
+  admin:
+    tabprefix: "&#e63946&l[Admin] "
+    tagprefix: "&#e63946&l[Admin] "
+  mod:
+    tabprefix: "&#0077b6&l[Mod] "
+    tagprefix: "&#0077b6&l[Mod] "
+  helper:
+    tabprefix: "&#70e000&l[Helper] "
+    tagprefix: "&#70e000&l[Helper] "
+  subzero:
+    tabprefix: "&#00ffff&l[SubZero] "
+    tagprefix: "&#00ffff&l[SubZero] "
+  permafrost:
+    tabprefix: "&#5271ff&l[Permafrost] "
+    tagprefix: "&#5271ff&l[Permafrost] "
+  blizzard:
+    tabprefix: "&#38b6ff&l[Blizzard] "
+    tagprefix: "&#38b6ff&l[Blizzard] "
+  glacier:
+    tabprefix: "&#00e5ff&l[Glacier] "
+    tagprefix: "&#00e5ff&l[Glacier] "
+  _DEFAULT_:
+    tabprefix: "&#00d2ff[Frostborn] "
+    tagprefix: "&#00d2ff[Frostborn] "

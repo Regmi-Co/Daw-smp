@@ -1,0 +1,14 @@
+# EssentialsX Chat Configuration - Frostbite Ice Edition
+chat:
+  radius: 0
+  format: '{DISPLAYNAME}&8: &f{MESSAGE}'
+  group-formats:
+    owner: '&#9d4edd&lOwner &#f1f5f9{DISPLAYNAME} &#8b5cf6» &f{MESSAGE}'
+    admin: '&#e63946&lAdmin &#f1f5f9{DISPLAYNAME} &#e63946» &f{MESSAGE}'
+    mod: '&#0077b6&lMod &#f1f5f9{DISPLAYNAME} &#0077b6» &f{MESSAGE}'
+    helper: '&#70e000&lHelper &#f1f5f9{DISPLAYNAME} &#70e000» &f{MESSAGE}'
+    subzero: '&#00ffff&lSubZero &#caf0f8{DISPLAYNAME} &#00b4d8» &f{MESSAGE}'
+    permafrost: '&#5271ff&lPermafrost &#dbeafe{DISPLAYNAME} &#5271ff» &f{MESSAGE}'
+    blizzard: '&#38b6ff&lBlizzard &#e0f2fe{DISPLAYNAME} &#38b6ff» &f{MESSAGE}'
+    glacier: '&#00e5ff&lGlacier &#e0f2fe{DISPLAYNAME} &#00e5ff» &f{MESSAGE}'
+    default: '&#00d2ff[Frostborn] &#e2e8f0{DISPLAYNAME} &#00d2ff» &7{MESSAGE}'

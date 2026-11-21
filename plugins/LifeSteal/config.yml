@@ -1,0 +1,40 @@
+# LifeSteal Plugin Configuration - Frostbite Ice Theme
+config-version: 3
+
+settings:
+  default-hearts: 10
+  max-hearts: 20
+  min-hearts: 1
+  hearts-lost-on-death: 1
+  hearts-gained-on-kill: 1
+  environment-death-loses-heart: true
+  allow-heart-crafting: true
+  allow-revive-crafting: true
+
+heart-item:
+  material: NETHER_STAR
+  name: "&#00ffff&l❄ Heart of Frost ❄"
+  lore:
+    - "&7A crystallized heart forged from permafrost."
+    - ""
+    - "&bRight-click &7to consume and gain &c+1 Heart&7!"
+    - "&8&oMax capacity: 20 Hearts"
+  custom-model-data: 1001
+
+revive-item:
+  material: BEACON
+  name: "&#38b6ff&l❄ Glacial Revive Beacon ❄"
+  lore:
+    - "&7Contains ancient cryo-magic capable of"
+    - "&7resurrecting an eliminated ally."
+    - ""
+    - "&bRight-click &7to open the revive menu."
+  custom-model-data: 1002
+
+messages:
+  prefix: "&#00d2ff&lFROSTBITE &#8b5cf6» &r"
+  heart-gained: "&#00ffffYou shattered your opponent and absorbed &c+1 Heart&7!"
+  heart-lost: "&#e63946You fell in battle and lost &c-1 Heart&7!"
+  eliminated: "&#e63946&lELIMINATION! &7You have frozen to death and lost all hearts!"
+  max-hearts-reached: "&#e63946You have already reached the maximum limit of 20 Hearts!"
+  withdrawn-heart: "&#00d2ffYou extracted a &cHeart of Frost&7 into your inventory."

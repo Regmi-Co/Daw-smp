@@ -1,0 +1,27 @@
+# DecentHolograms - Spawn Welcome & Guide Hologram
+location: world:0.5:72.0:0.5
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+lines:
+  - content: "&#00ffff&l❄ WELCOME TO FROSTBITE LIFESTEAL ❄"
+    height: 0.35
+  - content: "&7Survive the cold. Slay rivals. Steal hearts."
+    height: 0.3
+  - content: "&8&m--------------------------------------------------"
+    height: 0.25
+  - content: "&#00d2ff⚔ &b&lCOMBAT: &7Killing a player steals &c+1 Heart&7 from them."
+    height: 0.3
+  - content: "&#e63946💀 &c&lELIMINATION: &7Lose all hearts &8= &cFreezes into Spectator&7!"
+    height: 0.3
+  - content: "&#38b6ff❄ &b&lREVIVE: &7Allies can craft &bGlacial Revive Beacons&7 to bring you back."
+    height: 0.3
+  - content: "&#5271ff🛡 &9&lTEAMS: &7Create a team with &b/team create <name>&7 to avoid friendly fire!"
+    height: 0.3
+  - content: "&8&m--------------------------------------------------"
+    height: 0.25
+  - content: "&f&oExplore the wilderness and conquer the permafrost!"
+    height: 0.3

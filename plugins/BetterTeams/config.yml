@@ -1,0 +1,18 @@
+# BetterTeams Plugin Configuration - Frostbite Ice Edition
+team-settings:
+  max-team-size: 8
+  friendly-fire: false
+  allow-team-rename: true
+  min-name-length: 3
+  max-name-length: 12
+  tag-prefix: "&#00ffff["
+  tag-suffix: "&#00ffff] "
+
+chat-settings:
+  team-chat-prefix: "&#00ffff[Team] "
+  enable-team-chat: true
+
+messages:
+  prefix: "&#00d2ff&lTEAMS &#8b5cf6» &r"
+  team-created: "&#00ffffYour ice clan &f%team% &#00ffffhas been established!"
+  team-joined: "&#00d2ffWelcome to &f%team%&#00d2ff!"
