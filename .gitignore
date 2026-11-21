@@ -6,6 +6,7 @@ libraries/
 versions/
 bundler/
 .paper-remapped/
+.jdk25/
 
 # World and runtime files
 world/
